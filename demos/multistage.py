@@ -1,7 +1,6 @@
 import bayesnewton
 import objax
 import numpy as np
-import matplotlib.pyplot as plt
 import time
 import tensorflow as tf
 import gpflow

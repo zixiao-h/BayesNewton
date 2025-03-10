@@ -1,6 +1,5 @@
 import bayesnewton
 import objax
-from jax import vmap
 import numpy as np
 import matplotlib.pyplot as plt
 import time

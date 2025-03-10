@@ -1,6 +1,5 @@
 import jax.numpy as np
 from jax import vmap
-from jax.scipy.linalg import cho_factor, cho_solve
 from jax.scipy.linalg import solve as jsc_solve
 from .utils import mvn_logpdf, solve, transpose, inv, inv_vmap
 from jax.lax import scan, associative_scan

@@ -7,13 +7,12 @@ config.update("jax_enable_x64", True)
 import pytest
 import tensorflow as tf
 import gpflow
-import scipy as sp
 import pickle
 
 gpflow.config.set_default_jitter(1e-20)
 
-train_data = pickle.load(open(f'../experiments/shutters/data/train_data_0_0.pickle', "rb"))
-pred_data = pickle.load(open(f'../experiments/shutters/data/pred_data_0_0.pickle', "rb"))
+train_data = pickle.load(open('../experiments/shutters/data/train_data_0_0.pickle', "rb"))
+pred_data = pickle.load(open('../experiments/shutters/data/pred_data_0_0.pickle', "rb"))
 pred_data = pred_data['grid']
 
 X = train_data['X']

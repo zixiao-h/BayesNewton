@@ -1,7 +1,6 @@
 import bayesnewton
 import objax
 import numpy as np
-from jax import vmap
 import matplotlib.pyplot as plt
 import time
 from sklearn.preprocessing import StandardScaler

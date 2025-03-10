@@ -1,8 +1,8 @@
 import objax
-from jax import vmap, grad, jacrev
+from jax import vmap, jacrev
 import jax.numpy as np
 from jax.scipy.linalg import cholesky, cho_factor
-from .utils import inv, solve, gaussian_first_derivative_wrt_mean, gaussian_second_derivative_wrt_mean, transpose
+from .utils import solve, gaussian_first_derivative_wrt_mean, gaussian_second_derivative_wrt_mean, transpose
 from numpy.polynomial.hermite import hermgauss
 import numpy as onp
 import itertools
