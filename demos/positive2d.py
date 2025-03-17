@@ -2,10 +2,8 @@ import bayesnewton
 import objax
 import numpy as np
 from scipy.cluster.vq import kmeans2
-import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-from convertbng.util import convert_bng
 import time
 
 

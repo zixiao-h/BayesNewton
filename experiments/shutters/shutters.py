@@ -1,13 +1,12 @@
 import bayesnewton
 import objax
 import numpy as np
-from scipy.cluster.vq import kmeans2
 import matplotlib.pyplot as plt
 import pickle
 import time
 
-train_data = pickle.load(open(f'data/train_data_6_0.pickle', "rb"))
-pred_data = pickle.load(open(f'data/pred_data_6_0.pickle', "rb"))
+train_data = pickle.load(open('data/train_data_6_0.pickle', "rb"))
+pred_data = pickle.load(open('data/pred_data_6_0.pickle', "rb"))
 pred_data = pred_data['grid']
 
 X = train_data['X']

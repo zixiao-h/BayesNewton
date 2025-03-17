@@ -1,12 +1,10 @@
 import bayesnewton
-import objax
 import numpy as np
 from bayesnewton.utils import inv
 import gpflow
 from jax.config import config
 config.update("jax_enable_x64", True)
 import pytest
-import scipy as sp
 
 gpflow.config.set_default_jitter(1e-32)
 

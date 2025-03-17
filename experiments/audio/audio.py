@@ -6,7 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 from scipy.io import loadmat
-import pickle
 
 print('loading data ...')
 y = loadmat('speech_female')['y']

@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import time
-import tikzplotlib
 
 print('loading rainforest data ...')
 data = np.loadtxt('../data/TRI2TU-data.csv', delimiter=',')

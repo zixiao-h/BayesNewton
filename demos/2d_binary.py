@@ -1,5 +1,4 @@
 import bayesnewton
-from bayesnewton.cubature import Unscented
 import objax
 import numpy as np
 import matplotlib.pyplot as plt

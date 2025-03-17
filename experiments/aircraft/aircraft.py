@@ -3,7 +3,6 @@ import bayesnewton
 import objax
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import time
 from datetime import date
 import pickle

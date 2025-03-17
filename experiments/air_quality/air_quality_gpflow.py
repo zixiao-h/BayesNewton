@@ -156,7 +156,7 @@ set_trainable(m.inducing_variable, True)
 
 # ===========================Train===========================
 
-if minibatch_size[num_z_ind] is None or minibatch_size[num_z_ind] is 'none':
+if minibatch_size[num_z_ind] is None or minibatch_size[num_z_ind] == 'none':
     training_loss = m.training_loss_closure(
         data
     )
